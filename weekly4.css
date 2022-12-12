@@ -1,0 +1,213 @@
+.background{
+    height: 850px;
+    width: 100%;
+    background: linear-gradient(red,purple,blue);
+
+}
+.image{
+    height: 240px;
+    margin: 90px;
+}
+.starboy{
+    color: white;
+    
+}
+.text{
+    color: white;
+    text-align: justify;
+    margin-right: 200px;
+    width: 500px;
+}
+.home{
+    background-color: white;
+    border-radius: 12px;
+    padding: 15px;
+}
+.othersong{
+    background-color: white;
+    border-radius: 12px;
+    padding: 15px
+}
+.Favorite{
+    background-color: white;
+    border-radius: 12px;
+    padding: 15px
+}
+.signup{
+    background-color: white;
+    border-radius: 12px;
+    padding: 15px
+}
+.signin{
+    background-color: white;
+    border-radius: 12px;
+    padding: 15px
+}
+.album1{
+    position: relative;
+    transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+}
+.album1:hover{
+    z-index:2;
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);  
+    -moz-transform: scale(1.5);
+    transform: scale(1.1);
+
+}
+.album2{
+    position: relative;
+    transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+}
+.album2:hover{
+    z-index:2;
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);  
+    -moz-transform: scale(1.5);
+    transform: scale(1.1);
+}
+.album3{
+    position: relative;
+    transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+}
+.album3:hover{
+    z-index:2;
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);  
+    -moz-transform: scale(1.5);
+    transform: scale(1.1);
+}
+.album4{
+    position: relative;
+    transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+}
+.album4:hover{
+    z-index:2;
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);  
+    -moz-transform: scale(1.5);
+    transform: scale(1.1);
+}
+.album5{
+    position: relative;
+    transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+}
+.album5:hover{
+    z-index:2;
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);  
+    -moz-transform: scale(1.5);
+    transform: scale(1.1);
+}
+.starboyalbum{
+    position: relative;
+    transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+}
+.starboyalbum:hover{
+    z-index:2;
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);  
+    -moz-transform: scale(1.5);
+    transform: scale(1.2);
+}
+
+@media (min-width: 361px) and (max-width:767px) {
+    .background{
+        background: purple !important; 
+    }
+    .logo{
+        display: block !important;
+        
+    }
+    .navbar{
+        display: block !important;
+        text-align: center;
+        margin-top: 50px !important;
+        
+            
+    }
+    .image{
+        display: block !important;
+        text-align: center !important;
+        margin-left: 32px;
+    }
+    .albums{
+        display: block !important;
+    }
+    .albums2{
+        text-align: center;
+        margin-top: 380px;
+        margin-left: -66px;
+    }
+    .starboy{
+        text-align: start;
+    }
+    .text{
+        width: 100%;
+    }
+    .albumname{
+        margin-left: 35px;
+    }
+    
+}
+
+@media (min-width: 767px) and (max-width:1100px) {
+    .background{
+        background: purple !important;
+    }
+    .navbar{
+        margin-right: 49px;
+    }
+    .starboyalbum{
+        margin-left: -70px;
+    }
+    .text{
+        width: 100%;
+        margin-left: 30px;
+    }
+    .starboy{
+        margin-left: 30px;
+    }
+    .albums{
+        margin-left: 4px;
+    }
+    .album1{
+      width: 150px;
+      height: 150px !important;
+        
+    }
+    .album2{
+        width: 150px;
+        height: 150px !important;
+    }
+    .album3{
+        width: 150px;
+        height: 150px !important;
+    }
+    .album4{
+        width: 150px;
+        height: 150px !important;
+    }
+    .album5{
+        width: 150px;
+        height: 150px !important;
+    }
+    }
